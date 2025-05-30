@@ -5,7 +5,8 @@
   "main": "subgraph-comparison.ts",
   "scripts": {
     "start": "ts-node subgraph-comparison.ts",
-    "contract": "ts-node contract-comparison.ts"
+    "contract": "ts-node contract-comparison.ts",
+    "metadata": "ts-node getMetadataIds.ts"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
